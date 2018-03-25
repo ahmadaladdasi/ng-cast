@@ -17,6 +17,6 @@ angular.module('video-player')
     this.result = (input) => {
       youTube.search(input, this.searchResults)
     }
-    youTube.search('cats', this.searchResults)
+    youTube.search('clash royale', this.searchResults)
   }
 });
